@@ -10,7 +10,9 @@ body {
 #displayContainer {
 	width: 700px;
 	height: 700px;
-	background-size: cover;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
 
 	display: flex;
 	justify-content: center;
